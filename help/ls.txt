@@ -1,0 +1,32 @@
+Manual for the ls command
+------------------------------------------------------------------------------------------
+
+This command lists the specified directory contents.
+
+ls {path} - list contents of diraectory at path
+------------------------------------------------------------------------------------------
+
+Flags:
+
+-a: lists all entries, ie, does not ignore entries starting with .
+
+-m: display a comma separated list of entries
+------------------------------------------------------------------------------------------
+
+Errors:
+
+If an unknown flag is passed then the error message "option not supported" is displayed.
+
+If {path} is entered before flags then error message "invalid input, enter flags first"
+is displayed.
+
+If directory doesn't exist then error message "directory doesn't exit" is displayed.
+------------------------------------------------------------------------------------------
+
+Assumptions:
+
+The flags are always passed first, before {path}
+
+The flags have to be entered separately.
+ls -a -m    (correct)
+ls -am      (incorrect)

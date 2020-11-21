@@ -1,0 +1,245 @@
+as
+as
+cd f
+pwd
+exit
+sjdh
+s
+cc
+exit
+asa
+cd .
+cd ..
+history
+sd
+history
+as
+history
+exit
+history
+exit
+ls
+ls -l
+pwd
+as
+gudv
+cd ..
+ls
+exit
+ls
+ls
+cat
+ls -l
+ls sd s
+ls sd s
+ls
+cd
+pwd
+ls
+ls
+ls
+ls
+ls
+ls ..
+ls test
+ls
+ls /home
+ls ../p1
+ls
+ls ..
+ls -a
+ls -m
+ls
+ls -a
+ls -m
+ls ..
+ls -a ..
+ls -a -m
+ls -m ..
+ls -a -m ..
+ls -a   -m ..
+ls -a -m -a ..
+ls -a -m la ..
+ls -s ..
+ls -a -s ..
+ls
+ls -a t
+ls test
+ls -a -m .
+ls -a -m -a
+ls -a -m -a ..
+[A[A
+cat
+cat -
+cat -n
+cat -s
+cat as
+cat a -
+cat - -
+cat -n -E
+cat -n f
+cat -n -E as
+cat
+cat -
+cat -n
+cat -E
+cat -n -
+cat -E -
+cat -E
+cat -E
+cat -E
+cat -E
+cat -E -n
+as
+cat -n
+cat -n
+cat -n -E
+cat -E
+cat -n
+cat -n -
+cat -E -
+cat -n -E -
+cat -n -E
+cat -E -n
+cat -E -
+cat -n -
+cat -n -E as
+cat cat.c
+cat -n cat.c
+cat -n cat.c
+cat -n cat.c
+cat cat.c
+cat -E cat.c
+date
+date
+date
+date -u
+date
+date -u
+date -d 1/23/2012
+date -d 4/6/2213
+mkdir t1
+mkdir t1
+mkdir t2
+mkdir t1/t10
+mkdir -p t1
+mkdir t1
+mkdir t1/t10
+ls
+ls t1
+mkdir t2/t20
+ls
+mkdir -v t3
+mkdir -v t1
+mkdir -v t1/t10
+mkdir -p t2
+mkdir -p t2/t20/t200
+ls t2
+ls t2/t20
+mkdir -p t1/t2/t3
+ls t1
+ls t1/t2
+mkdir -p t3
+mkdir t1/t2/t3/t4
+mkdir -p t1/t2/t3/t4
+mkdir t1
+mkdir -v t1
+mkdir -v t2
+mkdir -p t3/t4/t5
+mkdir -v -p t3/t4/t5/t6/t7
+mkdir -v -p f1/f2/f3
+mkdir -p -v t1/t2/t3
+mkdir t2
+mkdir -p -v t2/t3/t4
+mkdir -p t1 t2 t3/t4
+ls
+cd test
+ls
+cd test
+cd ..
+ls
+ls
+ls test
+ls ..
+mkdir t4
+ls t4
+ls
+cd test
+cd test
+ls
+rm test
+rm -d test
+rm test/history.txt
+ls test
+ls test/t1
+rm -r test
+ls
+ls t4
+rm -d t4
+ls
+echo asda
+echo asdad
+echo -n asd
+ech as
+echo as
+cd
+asa\nas
+echo asa\nas
+echoa sas
+echo asas
+echo asas\anasas\nsa
+echo -n hghf jhg c gcg
+exit
+exit 5
+exit 6
+ls
+cd ..
+ls ../..
+history
+history
+history
+pwd
+exit
+cd --help
+cat --help
+ls --help
+echo --help
+cd --help
+ls --help
+cat --help
+history --help
+history
+pwd
+ls
+ls help
+cd help
+ls
+date
+date -u
+cat help/pwd.txt
+cat -
+cat -n -
+history
+history
+history
+history --help
+pwd
+ls
+ls help
+cd help
+pwd
+date
+date -u
+echo hello there!
+mkdir t1
+mkdir t2/t3
+mkdir -p t2/t3
+rm t1
+rm -d t1
+rm -d t2
+rm -r t2
+cat help/pwd.txt
+history
+exit
+cat help/pwd.txt
+mkdir --help

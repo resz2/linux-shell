@@ -1,0 +1,33 @@
+Manual for the mkdir command
+------------------------------------------------------------------------------------------
+
+This command is used to make directories.
+
+mkdir {path} {path} - creates the directories specified by the paths.
+------------------------------------------------------------------------------------------
+
+Flags:
+
+-p: no error if existing, make parent directories as needed
+
+-v: print a message for each created directory
+------------------------------------------------------------------------------------------
+
+Errors:
+
+If no arguments are passed then error message "missing operand" is displayed.
+
+If specified directory already exists then error message "mkdir: cannot create directory
+{string}: File exists" is displayed.
+
+If directory doesn't exist and -p flag is not used then error message "mkdir: cannot
+create directory {string}: No such file or directory" is displayed.
+------------------------------------------------------------------------------------------
+
+Assumptions:
+
+The flags are always passed first, before {path}
+
+The flags have to be entered separately.
+mkdir -p -v    (correct)
+mkdir -pv      (incorrect)

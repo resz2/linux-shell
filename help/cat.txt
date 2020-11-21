@@ -1,0 +1,31 @@
+Manual for the cat command
+------------------------------------------------------------------------------------------
+
+This command prints on standard output.
+
+cat {path} - displays contents of file at path
+cat -      - displays stdin input
+------------------------------------------------------------------------------------------
+
+Flags:
+
+-n: number all output lines
+
+-E: display $ at end of each line
+------------------------------------------------------------------------------------------
+
+Errors:
+
+If an unknown flag is passed then the error message "option not supported" is displayed.
+
+If {path} is entered before flags then error message "invalid input, enter flags first"
+is displayed.
+------------------------------------------------------------------------------------------
+
+Assumptions:
+
+The flags are always passed first, before {path}
+
+The flags have to be entered separately.
+cat -n -E    (correct)
+cat -nE      (incorrect)

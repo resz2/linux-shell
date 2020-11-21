@@ -1,0 +1,25 @@
+Manual for the history command
+------------------------------------------------------------------------------------------
+
+This command displays the commands entered into the shell till now.
+
+history - past commands are displayed on screen.
+------------------------------------------------------------------------------------------
+
+Flags:
+
+-c: This flag is used to clear history, it deletes the file content.
+------------------------------------------------------------------------------------------
+
+Errors:
+
+If an error occurs while opening the history.txt file, then error message "error opening
+file" is displayed.
+------------------------------------------------------------------------------------------
+
+Assumptions:
+
+The flags are always passed first, so in this case the flag should be the 1st, and only
+argument.
+
+Each command should be less than 140 characters in length.

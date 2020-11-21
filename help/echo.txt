@@ -1,0 +1,16 @@
+Manual for the echo command
+------------------------------------------------------------------------------------------
+
+This command displays the passed arguments on the standard output stream.
+
+echo {string} - {string} is dislpayed on the screen(stdout).
+------------------------------------------------------------------------------------------
+
+Flags:
+
+-n: If this flag is passed, then trailing newline is not output.
+------------------------------------------------------------------------------------------
+
+Assumptions:
+
+The flags are always passed first, so in this case the flag should be the 1st argument.

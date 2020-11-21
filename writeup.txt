@@ -1,0 +1,34 @@
+To run the shell, use command:
+-> make
+
+This will compile the external command codes and the shell code, adn then run the shell.
+Once you exit the shell it will clear the intermediate files produced.
+
+If an error is encountered during shell use, then files can be cleared using:
+-> make clear
+
+or alternatively, you can run the shell again using:
+-> make run
+
+Some commands to test the working of the shell:
+
+ls
+ls help
+cd help
+pwd
+cd ..
+pwd
+date
+date -u
+echo hello there!
+mkdir t1
+mkdir t2/t3
+mkdir -p t2/t3
+rm t1
+rm -d t1
+rm -d t2
+rm -r t2
+cat help/pwd.txt
+mkdir --help
+history
+exit

@@ -1,0 +1,22 @@
+Manual for the cd command
+------------------------------------------------------------------------------------------
+
+This command changes the current working directory for the executing process to the
+specified path.
+
+cd {path} - cwd is changed to the specified path.
+------------------------------------------------------------------------------------------
+
+Errors:
+
+If argument is not passed, then error message "expected argument to cd" is dislpayed.
+
+If an error occurs while changing directory due to address that doesn't exist/is invalid,
+the error message "invalid address" is dislpayed.
+------------------------------------------------------------------------------------------
+
+Assumptions:
+
+Only a single argument is passed to cd, either "--help" or {path}.
+
+The specified {path} should be relative path for consistency.

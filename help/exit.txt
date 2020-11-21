@@ -1,0 +1,16 @@
+Manual for the exit command
+------------------------------------------------------------------------------------------
+
+This command causes normal process termination, in this case it exits the shell.
+
+exit - exits the shell
+------------------------------------------------------------------------------------------
+
+Flags:
+
+n: This flag is used to exit with the value n.
+------------------------------------------------------------------------------------------
+
+Assumptions:
+
+Only a single argument is passed to cd, either "--help" or n.

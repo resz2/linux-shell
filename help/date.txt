@@ -1,0 +1,32 @@
+Manual for the date command
+------------------------------------------------------------------------------------------
+
+This command displays the system date and time.
+
+date - system date and time are displayed on screen.
+------------------------------------------------------------------------------------------
+
+Flags:
+
+-d {string}: displays date described by {string}
+
+-u: displays Coordinated Universal Time (UTC)
+------------------------------------------------------------------------------------------
+
+Errors:
+
+If an unknown flag is passed then the error message "option not supported" is displayed.
+
+If {string} is entered before flags then error message "invalid input, enter flags first"
+is displayed.
+
+If -d flag is used without string argument, error message "d flag requires 1 more
+argument" is displayed.
+------------------------------------------------------------------------------------------
+
+Assumptions:
+
+The flags have to be used separate from each other
+date -d 10/19/2000      (correct)
+date -u                 (correct)
+date -u -d 1/9/2000     (error)

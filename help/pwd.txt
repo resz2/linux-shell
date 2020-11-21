@@ -1,0 +1,11 @@
+Manual for the pwd command
+------------------------------------------------------------------------------------------
+
+This command displays the current working directory fo the executing process.
+
+pwd - cwd is displayed on screen.
+------------------------------------------------------------------------------------------
+
+Assumptions:
+
+No extra argument is passed to pwd, except "--help" for viewing this page.

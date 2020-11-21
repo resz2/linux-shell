@@ -1,0 +1,33 @@
+Manual for the rm command
+------------------------------------------------------------------------------------------
+
+This command is used to remove files or directories.
+
+rm {path} {path} - removes the files specified by the paths.
+------------------------------------------------------------------------------------------
+
+Flags:
+
+-d: remove empty directories
+
+-r: remove directories and their contents recursively
+------------------------------------------------------------------------------------------
+
+Errors:
+
+If no arguments are passed then error message "missing operand" is displayed.
+
+If -d -r are not used and {path} specifies a directory, then error message "rm: cannot
+remove {path}: Is a directory" is displayed.
+
+If -d is used(but not -r) and {path} specifies a non-empty directory, then error message
+"cannot remove {path}: Directory not empty" is displayed.
+------------------------------------------------------------------------------------------
+
+Assumptions:
+
+The flags are always passed first, before {path}
+
+The flags have to be entered separately.
+rm -r -d    (correct)
+rm -rd      (incorrect)
