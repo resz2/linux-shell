@@ -1,7 +1,7 @@
 To run the shell, use command:
 -> make
 
-This will compile the external command codes and the shell code, adn then run the shell.
+This will compile the external command codes and the shell code, and then run the shell.
 Once you exit the shell it will clear the intermediate files produced.
 
 If an error is encountered during shell use, then files can be cleared using:
